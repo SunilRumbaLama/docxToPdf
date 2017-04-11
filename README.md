@@ -11,7 +11,12 @@ A library that converts docx file to pdf.
 
     var docxConverter = require('docx-pdf');
 
-    docxConverter('./input.docx','./output.pdf');
+    docxConverter('./input.docx','./output.pdf',function(err,result){
+      if(err){
+        console.log(err);
+      }
+      console.log('result'+result);
+    });
     
     its basically docxConverter(inputPath,outPath,function(err,result){
       if(err){
