@@ -1,6 +1,6 @@
 {
   "name": "docx-pdf",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Package to convert docx file to pdf",
   "main": "index.js",
   "scripts": {
