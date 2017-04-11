@@ -5,7 +5,7 @@ A library that converts docx file to pdf.
 
 ## Installation
 
-  npm install docxToPdf --save
+  npm install docx-pdf --save
 
 ## Usage
 
