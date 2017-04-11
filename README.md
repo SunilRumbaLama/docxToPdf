@@ -1,2 +1,23 @@
-# docxToPdf
-package to convert docx file to pdf
+Docx to pdf
+=========
+
+A library that converts docx file to pdf.
+
+## Installation
+
+  npm install docxToPdf --save
+
+## Usage
+
+    var docxConverter = require('docxToPdf');
+
+    docxConverter.convertToPdf('./input.docx','./output.pdf');
+    
+    its basically docxConverter.convertToPdf(inputPath,outPath);
+  
+  Output should be output.pdf which will be produced on the output path your provided
+
+
+## Contributing
+
+This was created just for solo usage purpose. Anybody is welcome to contribute to it.
