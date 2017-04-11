@@ -13,7 +13,12 @@ A library that converts docx file to pdf.
 
     docxConverter('./input.docx','./output.pdf');
     
-    its basically docxConverter(inputPath,outPath);
+    its basically docxConverter(inputPath,outPath,function(err,result){
+      if(err){
+        console.log(err);
+      }
+      console.log('result'+result);
+    });
   
   Output should be output.pdf which will be produced on the output path your provided
 
