@@ -9,7 +9,7 @@ A library that converts docx file to pdf.
 
 ## Usage
 
-    var docxConverter = require('docxToPdf');
+    var docxConverter = require('docx-pdf');
 
     docxConverter.convertToPdf('./input.docx','./output.pdf');
     
